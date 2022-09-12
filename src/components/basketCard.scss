@@ -1,0 +1,43 @@
+.basketCard {
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  position: relative;
+  width: 860px;
+  margin: 0px auto 31px auto;
+
+  &__image {
+    width: 122px;
+    height: 122px;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 220px;
+  }
+
+  &__price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+    position: absolute;
+    right: 45px;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+
+    &:hover {
+      fill: #D58C51;
+      cursor: pointer;
+    }
+  }
+}

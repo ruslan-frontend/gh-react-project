@@ -1,0 +1,80 @@
+.card {
+  border: 1px solid #D58C51;
+  width: 21%;
+  height: 500px;
+  margin-bottom: 35px;
+  position:relative;
+  padding: 43px 21px 36px 21px;
+  cursor: pointer;
+
+  &:hover h2 {
+    color: #D58C51;
+  }
+  
+  &:hover p {
+    color: #D58C51;
+  }
+  
+  &:hover span {
+    color: #D58C51;
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto 31px auto;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+  }
+
+  &__description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 31px;
+
+    &-price {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 21px;
+      color: #FFFFFF;
+    }
+
+    &-count {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      margin-right: 120px;
+    }
+
+    &-button {
+      background: none;
+      border: none;
+    }
+
+    &-addButton:hover {
+      fill: #D58C51;
+      cursor: pointer;
+    }
+  }
+}
+
