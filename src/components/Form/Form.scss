@@ -1,0 +1,105 @@
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    color: black;
+    padding: 7px 20px 34px 20px;
+
+    &__error {
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: left;
+        color: #FF0B0B;
+        margin-left: 18px;
+        visibility: hidden;
+
+        &:last-of-type {
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+
+    &__link {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #D58C51;
+        cursor: pointer;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #161516;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    &__login {
+        box-sizing: border-box;
+        padding-left: 18px;
+        width: 420px;
+        height: 39px;
+        border: 1px solid #D58C51;
+        border-radius: 61px;
+        margin-top: 36px;
+        
+
+        &::placeholder {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #161516;
+        }
+    }
+    
+    &__password {
+        box-sizing: border-box;
+        padding-left: 18px;
+        width: 420px;
+        height: 39px;
+        border: 1px solid #D58C51;
+        border-radius: 61px;
+        margin-top: 15px;
+        
+        &::placeholder {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #161516;
+        }
+    }
+
+    &__button {
+        width: 200px;
+        height: 42px;
+        background: #D58C51;
+        margin: 22px auto 0 auto;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #131313;
+        margin-left: 25%;
+    }
+
+    &__checkbox {
+        display: flex;
+        margin: 15px 0 8px 0;
+
+        &-description{
+            font-weight: 300;
+            font-size: 16px;
+            color: #301411;
+        }
+    }
+}

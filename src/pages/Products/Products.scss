@@ -1,55 +1,16 @@
-.main {
-  background-color: #161516;
-  padding: 51px;
-}
-
 .container {
-  width: 1300px;
-  margin: 0 auto;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  color: #FFFFFF;
-  margin-bottom: 54px;
-
-  &__title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 38px;
-    text-transform: uppercase;
-  }
-  
-  &__basket {
-    display: flex;
-
-    &-description {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      font-size: 17px;
-      line-height: 21px;
-      text-align: right;
-      width: 151px;
-      margin-right: 20px;
-    }
-
-    &-button {
-      background: none;
-      border: none;
-    }
-  }
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  height: calc(100vh - 148px);
-  overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: calc(100vh - 148px);
+    overflow: auto;
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }

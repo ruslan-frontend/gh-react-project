@@ -1,0 +1,62 @@
+.header {
+    color: #ffffff;
+    padding-top: 48px;
+
+
+    &__container {
+        width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__actions, &__logo {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+
+    &__logo {
+        gap: 63px;
+    }
+
+    &__exit {
+        width: 200px;
+        height: 42px;
+        border: 1px solid #d58c51;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #d58c51;
+        align-items: center;
+        justify-content: center;
+        background: none;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    &__basket {
+        display: flex;
+
+        &-description {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: right;
+            width: 151px;
+            margin-right: 20px;
+        }
+
+        &-button {
+            background: none;
+            border: none;
+        }
+    }
+}

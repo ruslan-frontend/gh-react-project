@@ -1,56 +1,64 @@
 .section {
-  background-color: #161516;
+    background-color: #161516;
 }
 
 .basket {
-  border-bottom: 1px solid #D58C51;
-  height: calc(100vh - 89px);
-  overflow: auto;
+    height: calc(100vh - 257px);
+    overflow: auto;
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
-  &__title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 38px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 38px;
-  }
+    &__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 38px;
+    }
 }
 
 .footer {
-  height: 89px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 860px;
-  margin: 0 auto;
-
-  &__description {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 26px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-    & span {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      color: #D58C51;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #d58c51;
+    background: #161516;
+    
+    &__content {
+        padding: 20px 0 27px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 860px;
+        width: 100%;
+        margin: 0 auto;
     }
-  }
-  &__button {
-    width: 200px;
-    height: 42px;
-    background: #D58C51;
-    border-radius: 3px;
-  }
-}
 
+    &__description {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        & span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #d58c51;
+        }
+    }
+    &__button {
+        width: 200px;
+        height: 42px;
+        background: #d58c51;
+        border-radius: 3px;
+    }
+}

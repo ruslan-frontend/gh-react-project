@@ -1,0 +1,65 @@
+.plate {
+    background-size: 100%;
+    background-color: #161516;
+    height: 100vh;
+
+    &__card {
+        display: flex;
+
+        &-img {
+            width: 500px;
+            height: 500px;
+        }
+    }
+
+    &__info {
+        margin-left: 199px;
+
+
+        &-title {
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 37px;
+            color: #D58C51;
+            width: 414px;
+            margin-top: 58px;
+        }
+
+        &-description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-top: 21px;
+        }
+    }
+
+    &__footer {
+        margin-top: 34px;
+
+        &-price {
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        &-count {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &-button {
+            width: 200px;
+            height: 42px;
+            background: #D58C51;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #131313;
+            margin-left: 68px;
+        }
+    }
+}

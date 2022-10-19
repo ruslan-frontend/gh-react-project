@@ -6,6 +6,7 @@
   position:relative;
   padding: 43px 21px 36px 21px;
   cursor: pointer;
+  text-decoration: none;
 
   &:hover h2 {
     color: #D58C51;
@@ -25,7 +26,6 @@
   }
 
   &__title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
@@ -34,7 +34,6 @@
   }
 
   &__description {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -50,7 +49,6 @@
     margin-bottom: 31px;
 
     &-price {
-      font-family: 'Montserrat', sans-serif;
       font-weight: 500;
       font-size: 17px;
       line-height: 21px;
@@ -58,7 +56,6 @@
     }
 
     &-count {
-      font-family: 'Montserrat', sans-serif;
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
